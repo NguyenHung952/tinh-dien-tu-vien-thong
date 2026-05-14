@@ -1,76 +1,153 @@
-# ⚡ Máy Tính Điện Tử Viễn Thông ⚡  
-### 🎯 Công cụ tính toán hữu ích cho điện tử & viễn thông  
+# ⚡ Máy Tính Điện Tử Viễn Thông ⚡
 
-**Máy tính Điện tử Viễn thông** giúp bạn dễ dàng thực hiện các phép tính quan trọng trong ngành điện tử, bao gồm:  
-✔️ **Tính dòng điện theo Định luật Ohm**  
-✔️ **Tính công suất điện**  
-✔️ **Chuyển đổi đơn vị phổ biến (mV, mA, kΩ, MHz)**  
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Web-orange?style=for-the-badge&logo=html5">
+  <img src="https://img.shields.io/badge/CSS3-Responsive-blue?style=for-the-badge&logo=css3">
+  <img src="https://img.shields.io/badge/JavaScript-Calculator-yellow?style=for-the-badge&logo=javascript">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
 
----
-
-## 🌟 **Tính năng chính**  
-✔️ **Tính toán nhanh chóng** theo công thức vật lý chuẩn.  
-✔️ **Hỗ trợ nhiều phép tính quan trọng trong điện tử & viễn thông.**  
-✔️ **Giao diện đẹp mắt**, dễ sử dụng trên cả điện thoại và máy tính.  
-✔️ **Chuyển đổi đơn vị thông dụng chỉ với một cú click.**  
+<p align="center">
+  📡 Bộ công cụ tính toán hỗ trợ học tập và làm việc trong lĩnh vực Điện tử – Viễn thông.
+</p>
 
 ---
 
-## 🎮 **Cách sử dụng**  
-1️⃣ **Tính dòng điện (V = IR)**  
-   - Nhập **điện áp (V)** và **điện trở (Ω)**.  
-   - Nhấn **"Tính Dòng điện"**.  
-   - Xem kết quả **cường độ dòng điện (A)**.  
+# 📖 Giới thiệu
 
-2️⃣ **Tính công suất điện (P = VI)**  
-   - Nhập **hiệu điện thế (V)** và **dòng điện (A)**.  
-   - Nhấn **"Tính Công suất"**.  
-   - Xem kết quả **công suất tiêu thụ (W)**.  
+**Máy Tính Điện Tử Viễn Thông** là một web tool hỗ trợ thực hiện nhanh các phép tính phổ biến trong ngành điện tử và viễn thông.
 
-3️⃣ **Chuyển đổi đơn vị**  
-   - Nhập giá trị và chọn **loại đơn vị cần chuyển đổi**.  
-   - Nhấn **"Chuyển đổi"** để xem kết quả.  
+Ứng dụng giúp người dùng:
+
+- ⚡ Tính toán theo Định luật Ohm
+- 🔋 Tính công suất điện
+- 📶 Chuyển đổi đơn vị điện tử – viễn thông
+- 📡 Hỗ trợ các phép tính kỹ thuật cơ bản
+- 🧮 Tra cứu nhanh các thông số kỹ thuật
 
 ---
 
-## 📂 **Cấu trúc thư mục**  
-```
-electronic-calculator/
-│── index.html      # Giao diện HTML chính
-│── styles.css      # Định dạng giao diện
-│── script.js       # Code xử lý tính toán
-└── README.md       # Mô tả dự án (file này)
+# 🚀 Demo
+
+🔗 Live Demo:
+
+```bash
+https://nguyenhung952.github.io/
 ```
 
 ---
 
-## 🚀 **Cách chạy dự án**  
+# 📂 Cấu trúc Project
 
-### 🖥️ **1. Chạy trên máy tính**  
-1️⃣ Clone hoặc tải mã nguồn về máy:  
-```sh
-git clone https://github.com/YOUR-USERNAME/electronic-calculator.git
+```bash
+tinh-dien-tu-vien-thong/
+│
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
 ```
-2️⃣ Mở file `index.html` trong trình duyệt.  
-3️⃣ Nhập thông tin và thực hiện các phép tính.  
-
 
 ---
 
-## 🎯 **Đóng góp & Cải tiến**  
-Nếu bạn muốn cải thiện dự án, hãy làm theo các bước sau:  
-1️⃣ **Fork** repository này.  
-2️⃣ Tạo một **branch mới** với tính năng bạn muốn thêm.  
-3️⃣ **Commit** thay đổi và **push** lên GitHub.  
-4️⃣ Gửi **pull request** để mình xem xét! 🚀  
+# 🛠 Công nghệ sử dụng
+
+| Công nghệ | Vai trò |
+|---|---|
+| HTML5 | Xây dựng giao diện |
+| CSS3 | Thiết kế UI |
+| JavaScript | Xử lý phép tính |
 
 ---
 
-## 📜 **Bản quyền & Giấy phép**  
-Dự án này được phát triển với mục đích **học tập và phi lợi nhuận**. Bạn có thể sử dụng, chỉnh sửa và chia sẻ thoải mái.  
+# ⚙️ Chức năng chính
+
+## 📌 Định luật Ohm
+- Tính điện áp (V)
+- Tính dòng điện (I)
+- Tính điện trở (R)
+
+## 📌 Tính công suất
+- Công suất điện
+- Điện năng tiêu thụ
+
+## 📌 Chuyển đổi đơn vị
+- mV ↔ V
+- mA ↔ A
+- kΩ ↔ Ω
+- MHz ↔ GHz
+
+## 📌 Công cụ hỗ trợ
+- Giao diện nhập liệu trực quan
+- Hiển thị kết quả theo thời gian thực
+- Hỗ trợ học tập điện tử cơ bản
 
 ---
 
-Chúc bạn sử dụng vui vẻ! ⚡💡 **Nếu thấy hay, hãy ⭐ repository này nhé!** 🚀✨  
+# 🧠 Kiến thức áp dụng
+
+Project sử dụng các kiến thức:
+
+- Điện tử cơ bản
+- Viễn thông cơ bản
+- Định luật Ohm
+- JavaScript DOM
+- Frontend Development
 
 ---
+
+# 📸 Điểm nổi bật
+
+✨ Giao diện tối hiện đại  
+✨ Công cụ tính toán nhanh chóng  
+✨ Chạy trực tiếp trên trình duyệt  
+✨ Không cần cài đặt phần mềm  
+✨ Phù hợp cho sinh viên kỹ thuật
+
+---
+
+# ▶️ Cách chạy project
+
+## Clone repository
+
+```bash
+git clone https://github.com/your-username/tinh-dien-tu-vien-thong.git
+```
+
+## Chạy ứng dụng
+
+Mở file:
+
+```bash
+index.html
+```
+
+bằng trình duyệt để sử dụng.
+
+---
+
+# 🎯 Mục tiêu dự án
+
+- Hỗ trợ học tập điện tử – viễn thông
+- Xây dựng công cụ kỹ thuật thực tế
+- Thực hành JavaScript frontend
+- Cải thiện kỹ năng thiết kế web tool
+
+---
+
+# 👨‍💻 Author
+
+**Nguyễn Ngọc Hùng**  
+Sinh viên Điện tử Viễn thông – IUH
+
+---
+
+# ⭐ Support
+
+Nếu project hữu ích, hãy để lại một ⭐ cho repository.
+
+---
+
+<p align="center">
+  Made with ❤️ using HTML • CSS • JavaScript
+</p>
